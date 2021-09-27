@@ -25,7 +25,7 @@ class EmpresasStore extends FormRequest
     {
         return [
             'nombre' => 'required|max:70',
-            'logotipo' => 'dimensions:width=100px,height=100px',
+            
             
         ];
     }
